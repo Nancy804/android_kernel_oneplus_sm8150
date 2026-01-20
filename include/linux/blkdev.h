@@ -766,7 +766,7 @@ static inline void queue_flag_clear_unlocked(unsigned int flag,
 
 static inline int queue_in_flight(struct request_queue *q)
 {
-	return q->in_flight[0] + q->in_flight[1];
+	return 0;
 }
 
 static inline void queue_flag_clear(unsigned int flag, struct request_queue *q)
