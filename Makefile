@@ -2,6 +2,8 @@ export CLANG_TRIPLE=aarch64-linux-gnu-
 export OPLUS_F2FS_DEBUG=0
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export OPLUS_F2FS_DEBUG=0
+export CLANG_TRIPLE=aarch64-linux-gnu-
+export OPLUS_F2FS_DEBUG=0
 # SPDX-License-Identifier: GPL-2.0
 VERSION = 4
 PATCHLEVEL = 14
