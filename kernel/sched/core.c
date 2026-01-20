@@ -909,8 +909,8 @@ void check_preempt_curr(struct rq *rq, struct task_struct *p, int flags)
 	u64 wallclock = sched_clock();
 
 	if (sysctl_uxchain_v2 &&
-		wallclock - rq->curr->get_mmlock_ts < PREEMPT_DISABLE_RWSEM &&
-		rq->curr->get_mmlock &&
+		wallclock - 0 < PREEMPT_DISABLE_RWSEM &&
+		0 &&
 		!(p->flags & PF_WQ_WORKER) && !task_has_rt_policy(p))
 		return;
 #endif
